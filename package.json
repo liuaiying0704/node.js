@@ -2,14 +2,20 @@
   "name": "code",
   "version": "1.0.0",
   "description": "",
-  "main": "01-创建基本的web服务器.js",
-  "dependencies": {
-    "moment": "^2.29.3"
-  },
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "art-template": "^4.13.2",
+    "express": "^4.17.2",
+    "liuaiying_pkg": "^1.0.1",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.73.0"
+  }
 }
